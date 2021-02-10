@@ -1,0 +1,69 @@
+//compress:true;
+@import "vars";
+@import "mixins";
+
+ @media (max-width: 640px) {
+    .wrapper{
+        max-width: 100%;
+        padding:0 5%;
+        box-sizing: border-box;
+    }
+    body{
+        .size(12px);
+     }
+    .header{
+        height: 180px;
+    }
+    .deg{
+        width: 35px;
+        height: 35px;
+        top: 43%;
+        left: 5%;
+    }
+    .scope, .active, .successful{
+        .size(3rem);
+    }
+    .header_title{
+        .size(1.5rem);
+    }
+    .todo_list_wrap_date{
+        width: 35%;
+    }
+    .todo_list_item_date{
+        .size(0.75rem);
+    }
+    .add_todo_input{
+        width: 40px;
+        height: 40px;
+        left: 46.5%;
+        top: -20px;
+    }
+ }
+ 
+ @media (max-width: 480px) {
+    .header{
+        height: 160px;
+    }
+    .deg{
+        top: 43%;
+    }
+    .scope, .active, .successful{
+        .size(2.5rem);
+    }
+    .header_title{
+        .size(1.2rem);
+    }
+    .header_numbers_item{
+        .size(0.7rem);
+    }
+    .add_todo_input{
+        width: 35px;
+        height: 35px;
+        left: 45%;
+        top: -18px;
+    }
+    .add_todo_item{
+        width: 30%;
+    }
+ }
+ 

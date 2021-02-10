@@ -1,0 +1,79 @@
+.flex {
+  display: flex;
+}
+.text_center {
+  text-align: center;
+}
+.margin {
+  margin: 2%;
+}
+.padding {
+  padding: 2%;
+}
+@media (max-width: 640px) {
+  .wrapper {
+    max-width: 100%;
+    padding: 0 5%;
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 12px;
+  }
+  .header {
+    height: 180px;
+  }
+  .deg {
+    width: 35px;
+    height: 35px;
+    top: 43%;
+    left: 5%;
+  }
+  .scope,
+  .active,
+  .successful {
+    font-size: 3rem;
+  }
+  .header_title {
+    font-size: 1.5rem;
+  }
+  .todo_list_wrap_date {
+    width: 35%;
+  }
+  .todo_list_item_date {
+    font-size: 0.75rem;
+  }
+  .add_todo_input {
+    width: 40px;
+    height: 40px;
+    left: 46.5%;
+    top: -20px;
+  }
+}
+@media (max-width: 480px) {
+  .header {
+    height: 160px;
+  }
+  .deg {
+    top: 43%;
+  }
+  .scope,
+  .active,
+  .successful {
+    font-size: 2.5rem;
+  }
+  .header_title {
+    font-size: 1.2rem;
+  }
+  .header_numbers_item {
+    font-size: 0.7rem;
+  }
+  .add_todo_input {
+    width: 35px;
+    height: 35px;
+    left: 45%;
+    top: -18px;
+  }
+  .add_todo_item {
+    width: 30%;
+  }
+}
